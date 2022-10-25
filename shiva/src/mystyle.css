@@ -1,0 +1,365 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.myHeader{
+  width: 100%;
+  background-color: #fff;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+
+
+}
+
+.same{
+   
+    padding:1.2rem;
+    margin:5%;
+    line-height: 2%;
+    background-color: #E8EAED;
+    border-radius: 2px;
+    margin-top: 10px;
+
+
+}
+
+.same:hover{
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+
+.logo{
+    
+    
+   
+    line-height: 2%;
+  
+    border-radius: 2px;
+    
+    margin-right:auto;
+    margin-left: 100px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+  
+    
+}
+
+
+
+.Ac ::after{
+    content: "";
+    border: 2px solid red;
+    position: relative;
+    left:5px;
+    
+   
+    
+    
+    
+}
+
+.myCustom_Container{
+    width: 100%;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+
+}
+
+.m-same{
+   /* border:1px solid red; */
+   width:50%;
+   
+  
+}
+
+.myitem_one_image{
+    background-image: url("./images/hm.svg");
+    background-size: contain;
+    background-position: center ;
+   
+    background-repeat: no-repeat;
+}
+
+.myitem_two_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.field-container-parent{
+   
+    /* border:1px solid red; */
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.icon-con{
+    /* border:1px solid rgb(142, 142, 158);  */
+    width: 10%;
+    height: 50px;
+    margin-top: 10px;
+}
+.field-container-child{
+    border:1px solid rgb(142, 142, 158);
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background-color:#f0f2f5;
+    border: none;
+    
+
+}
+
+.userClass{
+    border:1px solid rgb(142, 142, 158);
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 2px;
+    background-color:#f0f2f5;
+    border: none;
+    padding-left: 10px;
+    
+}
+
+
+@media screen and (max-width:768px){
+    .myitem_one_image{
+        display: none;
+    }
+    .myitem_two_form{
+       
+        width: 100%;
+    }
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+
+  .logimg{
+    background-image: url("./images/lg.jpg");
+    background-size: contain;
+    background-position: center ;
+   
+    background-repeat: no-repeat;
+  }
+/* .userClass::placeholder{
+      padding-left: 5px;
+} */
+
+.login-push{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-top: 60px;
+}
+
+.cn{
+   
+        background-image: url("./images/cn.jpg");
+        background-size: contain;
+        background-position: center ;
+       
+        background-repeat: no-repeat;
+      
+}
+
+.hm{
+    background-image: url("./images/pg.jpg");
+        background-size: contain;
+        background-position: center ;
+       
+        background-repeat: no-repeat;
+}
+
+.bStyle{
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.7px;
+line-height: 20px;
+text-decoration: none solid rgb(255, 255, 255);
+text-align: center;
+word-spacing: 0px;
+
+background-color:  #10B981;
+background-position: 0% 0%;
+color:  #FFFFFF;
+
+height: 40px;
+width: 116.219px;
+border: 2px solid  #10B981;
+margin: 0 0 0 16px;
+padding: 8px 20px 8px 20px;
+min-height: auto;
+min-width: auto;
+
+display: block;
+
+cursor: pointer;
+
+transform: none;
+transition: all 0s ease 0s;
+
+box-sizing: border-box;
+border-top-left-radius: 9999px;
+border-top-right-radius: 9999px;
+border-bottom-left-radius: 9999px;
+border-bottom-right-radius:9999px;
+outline: none !important;
+}
+
+.bStyle:hover{
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    outline: none;
+}
+
+.abt{
+    background-image: url("./images/about.jpg");
+        background-size: contain;
+        background-position: center ;
+       
+        background-repeat: no-repeat;
+}
+
+.myFour{
+    background-image: url("./images/22.jpg");
+    background-size: contain;
+    background-position: center ;
+   
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:768px) {
+     .same , .dekhohome{
+         display: none;
+     }
+
+     .logo{
+         margin-left: auto;
+     }
+}
+
+
+ /* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+    user-select: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    transition: 'width 0.5s';
+    
+  }
+  .ripple:hover {
+    background: #E8EAED radial-gradient(circle, transparent 1%, #E8EAED 1%) center/15000%;
+    user-select: none;
+    border-radius: 50px;
+    user-select: unset
+ 
+  }
+  .ripple:active {
+    background-color: #14171b;
+    background-size: 100%;
+    transition: background 0s;
+    user-select: none;
+ 
+    
+  }
+
+   
+.side-bar-container{
+ 
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(248, 247, 216, 0.7);
+    z-index: 1;
+    
+}
+
+.sameli{
+    border-bottom:1px solid lightgray;
+    padding: 10px 10px;
+    list-style-type: none;
+}
+ 
+ 
+  
+.xdf{
+    background-position: center;
+    transition: background 0.8s;
+    user-select: none;
+    -webkit-tap-highlight-color:rgba(250, 246, 246, 0.644);
+}
+
+.xdf:hover {
+    background: #EFF2F6 radial-gradient(circle, transparent 1%, #EFF2F6  1%) center/15000%;
+    user-select: none;
+    
+    user-select: unset
+ 
+  }
+  .xdf:active {
+    background-color: #d0d3d6;
+    background-size: 100%;
+    transition: background 0s;
+    user-select: none;
+ 
+    
+  }
+
+  .yestft{
+      width: 250px !important;
+  }
+
+  .notft{
+      width: 0px !important;
+  }
+
+  .main-con-width-ok{
+      width: 100%;
+  }
+
+  .main-con-width-no{
+    width: 0px;
+  }
+
+  .sds{
+      border-bottom:none;
+  }
