@@ -2,7 +2,7 @@
 # **Portfolio wiht Auth by `Inderkant`**
 # `This Project is created when i was Learning MERN Stack - Enjoy it _-_`
 # See `DEMO OF PROJECT`
-[See Demo](https://link-url-here.org
+[See Demo](https://inderkant.herokuapp.com/)
 
 
 ## Below are the `Screen shot of` ** Project **
